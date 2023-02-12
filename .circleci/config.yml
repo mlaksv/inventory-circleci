@@ -9,7 +9,7 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-      - run: sudo chmod +x ./mvnw clean install
+      - run: sudo chmod +x ./circleci-mvnw.sh
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
