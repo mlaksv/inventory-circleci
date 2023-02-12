@@ -1,0 +1,2 @@
+# inventory-circleci
+test
