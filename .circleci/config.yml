@@ -16,5 +16,5 @@ jobs:
 workflows:
   inventory-app-workflow:
     jobs:
-      -   build-inventory-app:
+      - build-inventory-app:
 
