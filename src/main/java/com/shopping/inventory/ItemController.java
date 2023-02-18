@@ -29,6 +29,6 @@ public class ItemController {
     @PutMapping("/items/{id}")
     public Item updateItem(@PathVariable("id") Long id, @RequestBody Item item) throws ItemNotFoundException{
         return tableService.updateItem(id, item);
-    }afcdf
+    }
 
 }
